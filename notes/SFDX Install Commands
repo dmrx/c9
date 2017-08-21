@@ -1,0 +1,15 @@
+curl "https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.tar.xz" -o "sfdx-linux-amd64.tar.xz"
+tar xf sfdx-linux-amd64.tar.xz
+sudo ./sfdx/install -i /usr/local/sfdx -b /usr/local/bin/sfdx 
+
+//I had a cache issue and had to 'sudo rm -r sfdx' in the cache
+
+
+
+
+
+
+
+// SF Migration Tool
+curl "https://gs0.salesforce.com/dwnld/SfdcAnt/salesforce_ant_40.0.zip" -o "salesforce_ant_40.0.zip"
+unzip salesforce_ant_40.0.zip
